@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06A3DA;
+    --primary: #977600;
     --secondary: #F57E57;
     --light: #EEF9FF;
-    --dark: #091E3E;
+    --dark: #000000;
 }
 
 h1,
@@ -130,7 +130,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .85);
+    background: rgba(0, 0, 0, 0.85);
     z-index: 1;
 }
 
@@ -190,17 +190,17 @@ h6,
 }
 
 .hero-header {
-    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(9, 30, 62, .85), rgba(0, 0, 0, 0.85)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .bg-appointment {
-    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(9, 30, 62, .85), rgba(0, 0, 0, 0.85)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .appointment-form {
-    background: rgba(6, 163, 218, .7);
+    background: #977600;
 }
 
 .service-item img,
@@ -240,7 +240,7 @@ h6,
 }
 
 .offer-text {
-    background: rgba(6, 163, 218, .85);
+    background: #977600;
 }
 
 .price-carousel .owl-nav {
@@ -285,7 +285,7 @@ h6,
 }
 
 .testimonial-carousel {
-    background: rgba(6, 163, 218, .85);
+    background: #daab00;
 }
 
 .testimonial-carousel .owl-nav {
@@ -322,4 +322,8 @@ h6,
 .testimonial-carousel .owl-item img {
     width: 120px;
     height: 120px;
+}
+
+.navbar-brand h1 {
+    color: #977600 !important; /* Color Gold estándar */
 }
